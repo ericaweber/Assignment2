@@ -1,8 +1,33 @@
 #searchBar {
-  margin: 15px 10px;
+  margin: 25px 10px;
 }
 
 .tableWrapper {
-  max-height: 400px;
+  margin: 15px 10px;
+  max-height: 725px;
   overflow: auto;
+  background-color: white;
+  border-color: #4C6F95;
+  border-width: 5px;
 }
+
+.jumbotron {
+  background-color: #4C6F95;
+  min-height: 250px;
+  min-width: 700px;
+}
+
+#index h1 {
+   color:white;
+}
+
+#addData{
+   margin: 10px 10px;
+   min-width: 700px;
+
+}
+
+#text {
+    padding: 10px;
+}
+

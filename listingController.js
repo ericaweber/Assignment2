@@ -13,7 +13,8 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
       var code_in = document.getElementById("code").value;
       var name_in = document.getElementById("name").value;
       var address_in = document.getElementById("address").value;
-      var coordinates_in = document.getElementById("coordinates").value;
+      var lat_in = document.getElementById("lat").value;
+      var long_in = document.getElementById("long").value;
       var add = true;
 
       for (var i = 0; i < $scope.listings.length; i++) {
@@ -30,7 +31,9 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
             code: code_in,
             name: name_in,
             address: address_in,
-            coordinates: coordinates_in,
+            coordinates:{ 
+              latitude: lat_in,
+              longitude: long_in}
           });
       }
 
